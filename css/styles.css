@@ -1,0 +1,109 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f9fa;
+}
+
+header, footer {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  padding: 2rem 0;
+  border-top: 1px solid #e03409;
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color, 0.3s, ease;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  border-radius: 0.5rem;
+}
+
+nav {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+}
+nav .nav-link {
+  color: #ffffff;
+}
+nav .nav-link.active, nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.container, .modal-body {
+  max-width: 1200px;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+img[loading=lazy] {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.button-1 {
+  width: 100px;
+  height: 50px;
+  background-color: #007bff;
+  color: #fff;
+  margin: 10px 0;
+}
+.button-1:hover {
+  background-color: #0062cc;
+}
+
+.button-2 {
+  width: 200px;
+  height: 50px;
+  background-color: #0056b3;
+  color: #fff;
+  margin: 10px 0;
+}
+.button-2:hover {
+  background-color: #004a99;
+}
+
+.button-3 {
+  width: 300px;
+  height: 50px;
+  background-color: #66b0ff;
+  color: #fff;
+  margin: 10px 0;
+}
+.button-3:hover {
+  background-color: #003166;
+}/*# sourceMappingURL=main.css.map */
